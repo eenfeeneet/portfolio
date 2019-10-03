@@ -6,6 +6,12 @@ html {
 
 body {
   @include body-font;
+  background-image: url('../img/bg-fix.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 // Custom Button Size
@@ -15,8 +21,22 @@ body {
 
 // Content Section
 .content-section {
-  padding-top: 7.5rem;
-  padding-bottom: 7.5rem;
+	width: 50vw;
+}
+.content-about {
+  padding-bottom: 10.5rem;
+  padding-top: 5.5rem;
+  height: auto%;
+}
+
+// portfolio parallax
+.portfolio-parallax {
+  background-image: url('../img/bg-portfolio.png');
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .content-section-heading {
